@@ -27,7 +27,7 @@ food_size = random.randint(1, 3) * CELL_SIZE  # Random size between 1 and 3 time
 food_timer = pygame.time.get_ticks() + DISAPPEAR_TIME  # Set the initial timer for food disappearance
 score = 0
 level = 1
-speed = 10
+speed = 3
 
 # Game window
 window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
@@ -37,8 +37,8 @@ pygame.display.set_caption('Snake Game')
 clock = pygame.time.Clock()
 
 # Database initialization
-conn = psycopg2.connect(host="localhost", dbname="Nurtay", user="postgres",
-                        password="kaziev2004", port="5432")
+conn = psycopg2.connect(host="localhost", dbname="postgres", user="postgres",
+                        password="1234", port="5432")
 cursor = conn.cursor()
 
 # Create tables if they don't exist

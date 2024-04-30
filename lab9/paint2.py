@@ -33,7 +33,7 @@ def draw_menu(color, size):
     green = pygame.draw.rect(screen, (0, 255, 0), [WIDTH - 60, 10, 25, 25])
     yellow = pygame.draw.rect(screen, (255, 255, 0), [WIDTH - 60, 35, 25, 25])
     teal = pygame.draw.rect(screen, (0, 255, 255), [WIDTH - 85, 10, 25, 25])
-    purple = pygame.draw.rect(screen, (255, 0, 255), [WIDTH - 85, 35, 25, 25])
+    purple = pygame.draw.rect(screen, (255, 255, 255), [WIDTH - 85, 35, 25, 25])
     white = pygame.draw.rect(screen, (255, 255, 255), [
                              WIDTH - 110, 10, 25, 25])
     black = pygame.draw.rect(screen, (0, 0, 0), [WIDTH - 110, 35, 25, 25])
